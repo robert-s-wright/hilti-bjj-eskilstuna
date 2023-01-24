@@ -1,0 +1,79 @@
+body {
+  position: relative;
+}
+
+/*MAIN*/
+
+main {
+  display: block;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  margin-bottom: max(5vw, 6.6rem);
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(40, 35, 25, 1);
+
+}
+
+main .title {
+  display: inline-block;
+  margin: .5em 0 0 .5em;
+  color: rgba(40, 35, 25, .9);
+
+}
+
+.organization {
+  text-align: center;
+  font-size: 1.3em;
+  margin: 0 .5em;
+}
+
+.organization figure {
+  display: inline-block;
+  padding: 1.2em;
+  font-weight: 600;
+}
+
+.organization img {
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(25, 25, 25, .7);
+  margin: 2px;
+}
+
+.organization figcaption {
+  background-color: rgb(236,152,57);
+  box-shadow: 0 2px 5px rgba(25, 25, 25, .7);
+  margin: 2px;
+}
+
+.othermembers {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 1em;
+  font-size: .8em;
+}
+
+.othermembers div {
+  display: inline-block;
+  background-color: rgba(40, 35, 25, .9);
+  margin: 10px;
+  padding: .7em;
+  color: rgb(236,152,57);
+  box-shadow: 0 2px 5px rgba(25, 25, 25, .7);
+}
+
+.organization ul {
+  display: inline-block;
+  list-style: none;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+

@@ -1,0 +1,91 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+/*MAIN*/
+
+
+
+main {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(40, 35, 25, 1);
+  display: inline-block;
+  flex-grow: 1;
+
+}
+
+main h1 {
+  display: inline-block;
+  margin: .5em;
+  color: rgba(40, 35, 25, .9);
+}
+
+div.content {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.registration {
+  font-weight: 600;
+  display: inline-block;
+  max-width: 90vw;
+  margin: 10px;
+  
+}
+
+.registration a {
+  text-decoration: none;
+  color: rgba(40, 35, 25, .9);
+  font-weight: 800;
+}
+
+.registration a:hover {
+  background-color: rgba(40, 35, 25, .9);
+  color: rgba(253,163,59, 1);
+  transition: all 200ms ease-in;
+}
+
+.container {
+  max-width: 90vw;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  
+}
+
+.schema-wrapper ul {
+  list-style: none;
+}
+
+.container, .registration {
+  
+  background-color: rgba(253,163,59, 1);
+  box-shadow: 0 2px 5px rgba(25, 25, 25, .7);
+  color: rgba(40, 35, 25, .9);
+  
+}
+
+.info .title {
+  margin: 10px;
+  margin-bottom: 5px;
+  
+}
+
+.info p {
+  line-height: 1.4em;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.registration p {
+  margin: 10px;
+  line-height: 1.4em;
+}
+
+
+

@@ -1,0 +1,31 @@
+/*MAIN*/
+
+main {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(40, 35, 25, 1);
+  min-height: calc(100vh - 13em);
+}
+
+main h1 {
+  display: inline-block;
+  margin: 0.5em;
+  color: rgba(40, 35, 25, 0.9);
+}
+
+.container {
+  display: block;
+  position: relative;
+  width: 95%;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.container iframe {
+  height: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+  .container img {
+    max-width: 80vw;
+  }
+}
